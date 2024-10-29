@@ -1,0 +1,13 @@
+[package]
+name = "bevy_surreal_macros"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Macros for the bevy_surreal crate"
+
+[dependencies]
+quote = "1.0.37"
+syn = "2.0.79"
+
+[lib]
+proc-macro = true
